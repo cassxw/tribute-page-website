@@ -10,10 +10,11 @@ body {
 
     font-family: Helvetica;
     text-align: center;
+    line-height: 1.5;
 
     width: 600px;
     margin: auto;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
 }
 
 main {
@@ -35,6 +36,15 @@ h1 {
     margin: 25px auto;
 }
 
+h2 {
+    text-decoration: underline;
+    margin: 0px 0px 25px 0px;
+}
+
+h3 {
+    margin: 25px 0px 0px 0px;
+}
+
 #img-div {
     border: 2.5px solid rgb(22, 22, 22);
     background-color: #F97B2E;
@@ -54,10 +64,13 @@ h1 {
 
 hr {
     border-color: #A4373D;
-    color: #A4373D;
+    border-width: 2px;
+    border-style: ridge;
+    margin: 25px 0px;
 }
 
 ul {
     list-style: none;
+    margin: 0px;
     padding: 0px;
 }
